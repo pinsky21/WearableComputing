@@ -53,9 +53,9 @@ Variables 3 through 68 represent the average of the Mean and Standard Deviation 
 30. Freq-BodyGyro-Mean-Y
 31. Freq-BodyGyro-Mean-Z
 32. Freq-BodyAccMag-Mean
-33. Freq-BodyBodyAccJerkMag-Mean
-34. Freq-BodyBodyGyroMag-Mean
-35. Freq-BodyBodyGyroJerkMag-Mean
+33. Freq-BodyAccJerkMag-Mean
+34. Freq-BodyGyroMag-Mean
+35. Freq-BodyGyroJerkMag-Mean
 36. Time-BodyAcc-StDev-X
 37. Time-BodyAcc-StDev-Y
 38. Time-BodyAcc-StDev-Z
@@ -86,9 +86,9 @@ Variables 3 through 68 represent the average of the Mean and Standard Deviation 
 63. Freq-BodyGyro-StDev-Y
 64. Freq-BodyGyro-StDev-Z
 65. Freq-BodyAccMag-StDev
-66. Freq-BodyBodyAccJerkMag-StDev
-67. Freq-BodyBodyGyroMag-StDev
-68. Freq-BodyBodyGyroJerkMag-StDev
+66. Freq-BodyAccJerkMag-StDev
+67. Freq-BodyGyroMag-StDev
+68. Freq-BodyGyroJerkMag-StDev
 
 ### Notes on Units
 

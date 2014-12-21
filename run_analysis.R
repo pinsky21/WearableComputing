@@ -76,6 +76,9 @@ names(df) <- gsub("^f", "Freq-", names(df))
 names(df) <- gsub("mean", "Mean", names(df))
 names(df) <- gsub("std", "StDev", names(df))
 
+# Remove the redundant 'BodyBody' in some of the variables
+names(df) <- gsub("BodyBody", "Body", names(df))
+
 # Remove the parentheses () to further simplify
 names(df) <- gsub("()", "", names(df), fixed=TRUE)
 
