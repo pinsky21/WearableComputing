@@ -35,7 +35,7 @@ If you want to view the file that my run_analysis.R script generates, simply exe
 
 
 ```{r}
-output <- read.table("Average_Data_by_Subject_and_Activity.txt")
+output <- read.table("Average_Data_by_Subject_and_Activity.txt", header=TRUE)
 View(output)
 ```
 
