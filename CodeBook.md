@@ -11,6 +11,8 @@ The data manipulation resulted in an output file with data for each variable bel
 
 ### Data Dictionary
 
+Variables 3 through 68 represent the average of the Mean and Standard Deviation of the Time and Frequency domain signals. X, Y and Z represent each direction of the 3-axial raw signals. The data values have been normalized and bounded within (-1, 1) and therefore have no units (see Notes below). 
+
 1. Subject
   - ID of anonymous individuals that performed the tests (1-30)
 2. Activity
@@ -21,11 +23,6 @@ The data manipulation resulted in an output file with data for each variable bel
   - WALKING
   - WALKING_DOWNSTAIRS
   - WALKING_UPSTAIRS
-  
-
-Variables 3 through 68 represent the average of the Mean and Standard Deviation of the Time and Frequency domain signals. X, Y and Z represent each direction of the 3-axial raw signals. The data values have been normalized and bounded within (-1, 1) and therefore have no units. 
-
-
 3. Time-BodyAcc-Mean-X
 4. Time-BodyAcc-Mean-Y
 5. Time-BodyAcc-Mean-Z
