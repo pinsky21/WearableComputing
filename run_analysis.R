@@ -19,7 +19,7 @@ features <- read.table("features.txt")                  # 561 variable names for
 # Tidy the variable name data 
 features <- features[, 2]                       # Remove the first column of numbers
 features <- as.character(features)              # Convert to character vector
-features <- make.unique(features)               # Make names unique #syntactically valid
+features <- make.unique(features)               # Make names unique
 
 # Add the variable names as column headers in each data set
 colnames(xTest) <- features
