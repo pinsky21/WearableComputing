@@ -40,3 +40,7 @@ View(output)
 ```
 
 **NOTE:** Your working directory must be set to the folder that you extract from the above [data file] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). And you must NOT change the files or their location in order for the script to run properly.
+
+### Acknowledgement
+
+I want to especially thank [David Hood] (https://www.coursera.org/user/i/7a51bcac9c426e8f7e269324ba20fd0f) the course Community TA. His Course Project posts in the Forums were extremely helpful in getting my head around what to do on this project. His hints and direction gave just enough to nudge me in the right direction where I could struggle and work through the complete solution. 
