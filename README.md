@@ -11,7 +11,7 @@ The actual data for the project was obtained from [here] (https://d396qusza40orc
 The following are general steps I took when writing the script for this project:
 
 1. Merge the training and test sets to create one data set
-        + I first read in 3 data sets for each Train and Test groups
++ I first read in 3 data sets for each Train and Test groups
         + I also read in the list of variable names
         
 2. Extract only the measurements on the mean and std dev for each measurement
