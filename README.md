@@ -17,7 +17,7 @@ The following are general steps I took when writing the script for this project:
 2. Extract only the measurements on the mean and std dev for each measurement
   + I really like using the **dplyr** library for manipulating data sets.
   + I simply converted the combined data set to a dplyr data frame tbl.
-  + Then used the **select** function get only the columns I needed for the project.
+  + Then used the **select** function to get only the columns I needed for the project.
 3. Use descriptive activity names to name the activities in the data set
   + After much searching I found that I could use the **gsub** function to replace the Activity numbers with descriptive names.
 4. Appropriately label the data set with descriptive variable names
@@ -36,7 +36,7 @@ If you want to view the file that my run_analysis.R script generates, simply exe
 
 ```{r}
 output <- read.table("Average_Data_by_Subject_and_Activity.txt")
-view(output)
+View(output)
 ```
 
 **NOTE:** Your working directory must be set to the folder that you extract from the above [data file] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). And you must NOT change the files or their location in order for the script to run properly.
