@@ -11,7 +11,7 @@ The data manipulation resulted in an output file with data for each variable bel
 
 ### Data Dictionary
 
-Variables 3 through 68 represent the average of the Mean and Standard Deviation of the Time and Frequency domain signals. X, Y and Z represent each direction of the 3-axial raw signals. The data values have been normalized and bounded within (-1, 1) and therefore have no units (see Notes below). 
+Variables 3 through 68 represent the average of the Mean and Standard Deviation of the Time and Frequency domain signals. The suffix X, Y and Z represent each direction of the 3-axial raw signals. The data values have been normalized and bounded within (-1, 1) and therefore have no units (see Notes below). 
 
 1. Subject
   - ID of anonymous individuals that performed the tests (1-30)
